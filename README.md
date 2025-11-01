@@ -97,3 +97,36 @@ Modifying protected files will result in automatic academic integrity violation
 Implementation (70%): Function correctness, file operations, error handling
 
 Interview (30%): Code explanation and live coding challenge
+
+# 💬 Student Documentation
+
+## 🌍 Game Concept
+My RPG world is called **Eldoria**, a fantasy realm where heroes rise to fight ancient darkness.  
+Players can create unique characters — Warriors, Mages, Rogues, or Clerics — each with distinct strengths and weaknesses.
+
+## ⚙️ Design Choices
+Each class uses a simple stat formula to reflect its strengths:
+- **Warrior:** High Strength and Health, low Magic  
+- **Mage:** High Magic, moderate Health, low Strength  
+- **Rogue:** Balanced stats with agility focus  
+- **Cleric:** High Magic and Health for supportive roles  
+
+These choices keep gameplay balanced while demonstrating how to calculate stats with different formulas.
+
+## 🌟 Bonus Creative Features
+- Added a **gold system** (each character starts with 100 gold).  
+- Implemented **UTF-8 file encoding** for safe saving/loading of names with special characters.  
+- Added a **level-up feature** that automatically recalculates stats.  
+
+## 🤖 AI Usage
+I used AI (ChatGPT) to:
+- Learn how to use `os.path` and handle invalid file directories.  
+- Implement safe file saving/loading with `"utf-8"` encoding.  
+- Write error-handling logic in `save_character()`.  
+All code was reviewed and understood by me.
+
+## 🧠 How to Run
+Run the main program:
+```bash
+python project1_starter.py
+
